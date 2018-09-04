@@ -1,0 +1,26 @@
+{
+  "name": "simple-http-assignment-start",
+  "version": "1.0.0",
+  "description": "Simple HTTP",
+  "main": "index.js",
+  "scripts": {
+    "start":"node ./src/server.js",
+    "pretest":"eslint ./src --fix",
+    "test": "echo \"Tests complete\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aev2648/Simple-HTTP-Assignment-Start.git"
+  },
+  "author": "Alances Vargas",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aev2648/Simple-HTTP-Assignment-Start/issues"
+  },
+  "homepage": "https://github.com/aev2648/Simple-HTTP-Assignment-Start#readme",
+  "devDependencies": {
+    "eslint": "^5.5.0",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-plugin-import": "^2.14.0"
+  }
+}
